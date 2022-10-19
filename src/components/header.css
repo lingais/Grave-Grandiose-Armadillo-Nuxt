@@ -1,0 +1,119 @@
+.header-frame3 {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 149px;
+  height: 84px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  margin-left: 33px;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.header-image {
+  width: 200px;
+  padding: 10px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+.header-frame1 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 406px;
+  bottom: 0px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  justify-content: space-between;
+}
+.header-text1 {
+  color: rgba(196, 196, 196, 0.95);
+  width: auto;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 16px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.header-text2 {
+  color: rgba(196, 196, 196, 0.95);
+  width: 120px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Oxygen;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 16px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.header-frame2 {
+  width: 104px;
+  height: 50px;
+  display: flex;
+  padding: 23px 20px;
+  position: relative;
+  align-self: center;
+  transition: 0.3s;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 56px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: #0064d2;
+}
+.header-frame2:hover {
+  width: 109px;
+  height: 55px;
+  padding-top: 23px 20px;
+  margin-right: 53.5px;
+  padding-bottom: 23px 20px;
+  background-color: #553bb5;
+}
+.header-text3 {
+  color: rgba(255, 255, 255, 0.85);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
